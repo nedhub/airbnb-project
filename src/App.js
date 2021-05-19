@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './app.css';
+import Header from './Header';
+import Home from './Home';
+import Banner from './Banner';
+
+//EMEMANKA CHINEDU
+//AIRBNB PROJECT
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+
+
+      <Header/>
+
+
+      <Home/>
+
+      {/* <Banner/> */}
+
+      
+
+      {/*Hone */}
+
+      {/*Header */}
+
+      {/* Banner */}
+
+      {/*Search */}
+
+      {/*Cards*/}
+
+      {/*Footer*/}
+
+      {/*SearchPage*/}
+
+
+      {/* ... */}
+      
     </div>
   );
 }
